@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра Камень, Ножницы, Бумага и Бутылка лимонада</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="score">
+            <div class="player-score">
+                <h2>Игрок</h2>
+                <p>0</p>
+            </div>
+            <div class="comp-score">
+                <h2>Компьютер</h2>
+                <p>0</p>
+            </div>
+        </div>
+    
+        <div class="intro">
+        <h1>Камень, Ножницы, Бумага и Бутылка лимонада</h1>
+        <button class="buttons">Сыграем!</button>
+        </div>
+    
+        <div class="match fadeOut">
+        <h2 class="winner">Выберите из перечисленного ниже</h2>
+        <div class="hands">
+            <img src="assets/Камень.png" alt="" class="player-hand">
+            <img src="assets/Ножницы.png" alt="" class="comp-hand">
+        </div>
+        <div class="options">
+            <button class="rock">Камень</button>
+            <button class="paper">Бумага</button>
+            <button class="scissors">Ножницы</button>
+            <button class="lemonaidBottle">Бутылка лимонада</button>
+        </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
